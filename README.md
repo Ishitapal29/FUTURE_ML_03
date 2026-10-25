@@ -20,7 +20,7 @@ Technologies Used
 - PyPDF
 - Scikit-learn
 - Pandas
-- 
+  
 How Candidate Scoring Works
 The system evaluates resumes using two factors:
 
