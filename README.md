@@ -20,6 +20,20 @@ Technologies Used
 - PyPDF
 - Scikit-learn
 - Pandas
+- 
+How Candidate Scoring Works
+The system evaluates resumes using two factors:
+
+1. Text Similarity (60%) – TF-IDF and cosine similarity compare the resume text with the job description.
+2. Skill Coverage (40%) – The system checks how many required job skills are present in each resume.
+
+Final Score Formula:
+
+Final Score = (0.6 × Text Similarity + 0.4 × Skill Coverage) × 100
+
+Candidates are ranked from highest to lowest score. The system also displays matched skills and missing skills to help explain each candidate's results.
+
+Note: Scores indicate text and skill matching, not the probability of being hired. The system is a learning project and should not be used as the sole basis for real hiring decisions.
 
 How to Run
 1. Install Python.
