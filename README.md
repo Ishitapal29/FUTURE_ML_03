@@ -2,7 +2,7 @@
 An AI-based resume screening system that uses NLP, TF-IDF, and cosine similarity to rank resumes against a job description and identify matching skills.
 AI-Based Resume Screening and Ranking System
 
-Project Overview
+Project Overview:- 
 This project uses Natural Language Processing (NLP) techniques to compare resumes with a job description and rank candidates based on how closely their skills and experience match the requirements.
 
 Features
